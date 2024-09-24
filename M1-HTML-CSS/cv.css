@@ -1,0 +1,226 @@
+p,li,td{
+    font-size: 1.2rem;
+}
+
+/* career objective */
+.career-objective-card {
+    background-color: #f8f9fa; /* Light background color */
+    border: 1px solid #dee2e6; /* Light border color for a subtle border */
+    border-radius: 8px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for a lifted effect */
+}
+
+.career-objective-card h2 {
+    color: #007bff; /* Heading color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.career-objective-card p {
+    font-size: 1.2rem; /* Slightly larger text */
+    color: #343a40;
+    line-height: 1.6; /* Improved readability */
+}
+
+/* profession */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ddd;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    transform: translateX(0);
+    /* text-align: right; */
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.timeline-content {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+/* educational */
+.education-timeline-horizontal {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.education-timeline-item {
+    position: relative;
+    width: 600px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.education-timeline-marker {
+    width: 20px;
+    height: 20px;
+    background: #007bff;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.education-timeline-content {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-timeline h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.education-timeline-horizontal::-webkit-scrollbar {
+    height: 8px;
+}
+
+.education-timeline-horizontal::-webkit-scrollbar-thumb {
+    background: #007bff;
+    border-radius: 10px;
+}
+
+.education-timeline-horizontal::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* project */
+.projects-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table td {
+    vertical-align: top;
+}
+
+.table td:first-of-type {
+    font-weight: bold;
+}
+
+.table td {
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.table-container {
+    margin: 20px 0;
+}
+
+
+/* Achievements */
+.section-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.achievement-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.achievement-heading {
+    color: #343a40;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.achievement-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievement-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 1.1em;
+}
+
+.achievement-list li:last-child {
+    border-bottom: none;
+}
+

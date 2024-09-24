@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <br>
+
+    <!-- NAME -->
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName" maxlength="20" placeholder="20 letters only"><br>
+
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName" maxlength="20" placeholder="20 letters only"><br><br>
+
+
+    <!-- REGION -->
+    <label for="region">Region</label><br><br>
+
+    <input type="radio" id="asia" name="region">
+    <label for="asia">Asia</label><br>
+
+    <input type="radio" id="europe" name="region">
+    <label for="europe">Europe</label><br>
+
+    <input type="radio" id="northAmerica" name="region">
+    <label for="northAmerica">North America</label><br>
+
+    <input type="radio" id="southAmerica" name="region">
+    <label for="southAmerica">South America</label><br>
+
+    <input type="radio" id="africa" name="region">
+    <label for="africa">Africa</label>
+    <br><br>
+
+    <!-- CODING CLASS -->
+    <label for="codingClass">Coding Class</label><br><br>
+
+    <input type="checkbox" id="javascript" name="codingClass" value="javascript">
+    <label for="javascript">JavaScript</label><br>
+
+    <input type="checkbox" id="python" name="codingClass" value="python">
+    <label for="python">Python</label><br>
+
+    <input type="checkbox" id="htmlcss" name="codingClass" value="htmlcss">
+    <label for="htmlcss">HTML/CSS</label><br>
+    <br>
+
+    <!-- EXPERIENCE -->
+    <label for="codingExperience">Your Coding Experience:</label><br>
+    <select id="codingExperience" name="codingExperience">
+        <option value="none">No Experiences</option>
+        <option value="some">Some Experiences</option>
+        <option value="extensive">Extensive Experiences</option>
+    </select>
+    <br><br>
+
+    <!--COMMENT -->
+    <label for="comment">Any other comments for your application:</label><br>
+    <textarea id="comment" name="comment" rows="5" cols="40" placeholder="Enter your comments here..."></textarea>
+
+</body>
+</html>
